@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="theme-color" content="#1bb566">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -15,7 +15,7 @@
         <div>
             <div class="logo-content">
                 <div class="logo">
-                    <i class="fa-brands fa-rocketchat"></i>
+                    <!-- <i class="fa-brands fa-rocketchat"></i> -->
                     <div class="logo-name">YOANA STORE</div>
                 </div>
             </div>
@@ -23,8 +23,8 @@
 
             <ul class ="nav-list">
                 <li><a href="/home"><i class="fa-solid fa-house"></i><span class="links-name">Home</span></a></li>
-                <li><a href="/profile"><i class="fa-solid fa-house"></i><span class="links-name">User</span></a></li>
-                <li><a href="/settings"><i class="fa-solid fa-house"></i><span class="links-name">Pengaturan</span></a></li>
+                <li><a href="/profile"><i class="fa-solid fa-skull"></i><span class="link-name">User</span></a></li>
+                <li><a href="/settings"><i class="fa-solid fa-cog"></i><span class="links-name">Pengaturan</span></a></li>
             </ul>
             
             <div class="profile-content">
