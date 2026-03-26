@@ -1,5 +1,6 @@
 document.addEventListener('mousemove', (e) => {
     const eyes = document.querySelectorAll('.eye');
+    const passwordInput = document.querySelector('input[type="password"]');
     
     eyes.forEach(eye => {
         // posisi mata
@@ -15,6 +16,16 @@ document.addEventListener('mousemove', (e) => {
 
         const pupil = eye.querySelector ('.pupil');
         pupil.style.transform = `rotate(${rot}deg) translateY(-10px)`;
+    });
+
+    // saat input password fokus, mata menutup
+
+    passwordInput.addEventListener('focus', () => {
+        eyes.forEach(eye => eye.classList.add('closed'));
+    });
+
+    passwordInput.addEventListener('blur', () => {
+        eyes.forEach (eye => eye.classList.remove('closed'));
     });
 
 });

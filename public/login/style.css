@@ -84,3 +84,19 @@ button {
 button:hover {
     background: #19ff04;
 }
+
+/* Mata Merem */
+
+.eye.closed {
+    height: 4px; /*Menjadi Garis */
+    background: #333;
+    transition: all 0.3s ease;
+}
+
+.eye.closed .pupil {
+    opacity: 0; /* pupil merem */
+}
+
+.eye {
+    transition: height 0.2s ease, background 0.3s ease;
+}
